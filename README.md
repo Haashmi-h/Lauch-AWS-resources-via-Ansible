@@ -1,6 +1,9 @@
 # Lauch-AWS-resources-via-Ansible
 Ansible playbook to deploy AWS resources, "SSH key", "Security Group" and "Instance".
 
+We lauch 2 instances with option "exact_count".
+Then hosted a website contents clonned from Github [repo](https://github.com/Haashmi-h/aws-elb-site.git)
+
 ```sh
 PLAY RECAP **************************************************************************************************************************************
 3.110.170.110              : ok=12   changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
